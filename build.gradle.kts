@@ -24,7 +24,7 @@ repositories {
 dependencies {
     // NOTICE: You may need to update version number here
     // The version number is the commit hash
-    compileOnly(group = "org.allaymc", name = "allay", version = "eb8c6927c8")
+    compileOnly(group = "com.github.AllayMC.Allay", name = "Allay-API", version = "master-SNAPSHOT")
     compileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.34")
 
     annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.34")
