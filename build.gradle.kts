@@ -22,8 +22,6 @@ repositories {
 }
 
 dependencies {
-    // NOTICE: You may need to update version number here
-    // The version number is the commit hash
     compileOnly(group = "com.github.AllayMC.Allay", name = "Allay-API", version = "master-SNAPSHOT")
     compileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.34")
 
