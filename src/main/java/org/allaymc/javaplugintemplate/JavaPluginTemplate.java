@@ -7,16 +7,16 @@ import org.allaymc.api.plugin.Plugin;
 public class JavaPluginTemplate extends Plugin {
     @Override
     public void onLoad() {
-        log.info("MyPlugin loaded!");
+        log.info("JavaPluginTemplate loaded!");
     }
 
     @Override
     public void onEnable() {
-        log.info("MyPlugin enabled!");
+        log.info("JavaPluginTemplate enabled!");
     }
 
     @Override
     public void onDisable() {
-        log.info("MyPlugin disabled!");
+        log.info("JavaPluginTemplate disabled!");
     }
 }
