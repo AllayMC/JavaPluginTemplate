@@ -11,28 +11,33 @@ Welcome to the java plugin template for allay.
 
 1. **Clone this Repository**
 
-   ```bash
-   git clone https://github.com/AllayMC/JavaPluginTemplate.git
-   ```
+```bash
+git clone https://github.com/AllayMC/JavaPluginTemplate.git
+```
    
 2. **Navigate to the Cloned Directory**
 
-   ```bash
-   cd JavaPluginTemplate
-   ```
+```bash
+cd JavaPluginTemplate
+```
    
 3. **Change Plugin Information**
+
+- Rename package name from `org.allaymc.javaplugintemplate` to `your.group.name.and.pluginname`
+- Edit [build.gradle.kts](build.gradle.kts) and [settings.gradle.kts](settings.gradle.kts)
+- Edit [plugin.json](src/main/resources/plugin.json)
+- Reload gradle
    
 4. **Build and Run Your Plugin**
 
-   ```bash
-   gradlew shadowJar
-   ```
+```bash
+gradlew shadowJar
+```
    
-   This command will produce a `.jar` file in the `build/libs` directory. 
-   Copy the `.jar` file to the `plugins` directory of your allay server.
-   Start the allay server and check the logs to ensure your plugin loads and operates
-   as expected.
+This command will produce a `.jar` file in the `build/libs` directory. 
+Copy the `.jar` file to the `plugins` directory of your allay server.
+Start the allay server and check the logs to ensure your plugin loads and operates
+as expected.
 
 ## Documentation
 

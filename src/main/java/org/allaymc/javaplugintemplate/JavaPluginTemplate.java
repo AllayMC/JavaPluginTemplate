@@ -1,10 +1,10 @@
-package org.allaymc.myplugin;
+package org.allaymc.javaplugintemplate;
 
 import lombok.extern.slf4j.Slf4j;
 import org.allaymc.api.plugin.Plugin;
 
 @Slf4j
-public class MyPlugin extends Plugin {
+public class JavaPluginTemplate extends Plugin {
     @Override
     public void onLoad() {
         log.info("MyPlugin loaded!");
