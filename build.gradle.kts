@@ -27,3 +27,7 @@ dependencies {
 
     annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.34")
 }
+
+tasks.shadowJar {
+    archiveClassifier = "shaded"
+}
